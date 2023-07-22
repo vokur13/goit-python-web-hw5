@@ -5,7 +5,7 @@ from timeit import default_timer
 
 import requests
 
-from query_params import create_urls
+from utilities.query_params import create_urls
 
 urls = create_urls(2)
 

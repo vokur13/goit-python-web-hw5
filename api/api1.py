@@ -3,7 +3,7 @@ import platform
 
 import aiohttp
 
-from query_params import create_urls
+from utilities.query_params import create_urls
 
 
 async def get_rates(url):

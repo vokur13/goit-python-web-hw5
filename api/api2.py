@@ -3,7 +3,7 @@ import platform
 
 import aiohttp
 
-from query_params import create_urls
+from utilities.query_params import create_urls
 
 
 async def main(number):
@@ -21,9 +21,6 @@ async def main(number):
 
 # def data_adapter(data: dict):
 #     return [{f"{el.get('ccy')}": {"buy": float(el.get('buy')), "sale": float(el.get('sale'))}} for el in data]
-
-def data_adapter(data: dict):
-    return data
 
 
 if __name__ == '__main__':
